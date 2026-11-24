@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentinel-fs"
+version = "1.0.0"
+description = "Canonical Sovereign Sentinel Filesystem (SSFS) Substrate"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary - Aryorithm Technologies B.V."}
+authors = [{name = "Aryorithm Engineering", email = "engineering@aryorithm.com"}]
+
+[project.scripts]
+sentinel-fs = "sentinel_fs.resolver:main"
+
+[tool.setuptools.packages.find]
+where = ["python"]
