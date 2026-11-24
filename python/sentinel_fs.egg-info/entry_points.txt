@@ -1,0 +1,2 @@
+[console_scripts]
+sentinel-fs = sentinel_fs.resolver:main

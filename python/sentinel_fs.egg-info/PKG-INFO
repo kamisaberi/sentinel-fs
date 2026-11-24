@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: sentinel-fs
+Version: 1.0.0
+Summary: Canonical Sovereign Sentinel Filesystem (SSFS) Substrate
+Author-email: Aryorithm Engineering <engineering@aryorithm.com>
+License: Proprietary - Aryorithm Technologies B.V.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
